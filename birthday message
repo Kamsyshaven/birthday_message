@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 20th Birthday, My Love</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff4081;
+      animation: fadeIn 2s;
+    }
+
+    p {
+      font-size: 1.5em;
+      color: #333;
+      animation: fadeIn 3s;
+    }
+
+    .heart {
+      font-size: 100px;
+      color: red;
+      animation: heartAnimation 1s infinite;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes heartAnimation {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy 20th Birthday, My Love! 🎉</h1>
+  <p>You may be miles away, but my heart is always with you. On your special day, I hope you feel all the love I have for you. You’re truly the best thing that ever happened to me, and I’m so grateful to call you mine.</p>
+  <p class="heart">❤️</p>
+  <p>Through every moment, you bring joy, light, and warmth to my life. I pray that today, and always, your heart is filled with happiness, love, and peace. You’re my everything, and I’m so lucky to have you as my love.</p>
+  <p>Sending you all my love, virtual hugs, and kisses. 💋</p>
+</body>
+</html>
